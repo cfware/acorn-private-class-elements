@@ -20,8 +20,9 @@ This will allow other acorn plugins which depend on `acorn-private-class-element
 
 This fork is to obtain bug-fixes that have not been merged into the upstream project:
 
-* Compatibility with acorn 7.x
-* Move mocha to devDependencies
+* Compatibility with acorn 7.x (merged upstream)
+* Move mocha to devDependencies (merged upstream)
+* Use `Parser.acorn` if available
 
 Only production bug fixes will be accepted here and only if they are also submitted to upstream.
 
